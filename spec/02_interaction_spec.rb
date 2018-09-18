@@ -3,7 +3,7 @@ context "Filling in the Form" do
     visit "/new"
   end
 
-  it "can fill in forms for a pirate and two ships" do
+  xit "can fill in forms for a pirate and two ships" do
     fill_in("pirate[name]", :with => "Captain Jack Sparrow")
     fill_in("pirate[weight]", :with => "190 lbs")
     fill_in("pirate[height]", :with => "5 feet 11 inches")
